@@ -1,0 +1,24 @@
+.section1 {
+  .background {
+    background-image: url(/assets/img/iPhone13_Pro__large_.jpg);
+  }
+
+  .title {
+    padding-top: 3.5em;
+    text-align: center;
+    z-index: 10;
+
+    h2 {
+      font: 500 55px/1.125 Roboto;
+      color: var(--black1);
+      letter-spacing: -1px;
+    }
+
+    h3 {
+      font: 400 28px/1.16667 Roboto;
+      color: var(--black);
+      margin: 10px 0 25px 0;
+      letter-spacing: 0.009em;
+    }
+  }
+}
