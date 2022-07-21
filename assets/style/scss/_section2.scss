@@ -1,0 +1,39 @@
+.section2 {
+  .background {
+    background-image: url(/assets/img/Apple_Watch__large_.jpg);
+  }
+
+  .title {
+    padding-top: 5em;
+    text-align: center;
+    z-index: 10;
+
+    & > :nth-child(2) {
+      font: 500 20px/1.16667 Roboto;
+      letter-spacing: 0.049em;
+      color: var(--red);
+    }
+
+    h2 {
+      font: 600 48px/1.0835 Roboto;
+      color: var(--black1);
+      letter-spacing: -0.002em;
+
+      i {
+        margin-right: 0.1em;
+        transform: translateY(-3.4px);
+      }
+    }
+
+    h3 {
+      font: 400 24px/1.16667 Roboto;
+      color: var(--black);
+      margin-top: 5px;
+      letter-spacing: 0.009em;
+    }
+  }
+
+  .links {
+    padding-top: 1em;
+  }
+}
