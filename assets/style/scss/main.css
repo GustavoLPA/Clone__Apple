@@ -45,6 +45,10 @@
   z-index: -1;
 }
 
+.m2-processor {
+  height: 35px;
+}
+
 .links {
   text-align: center;
   margin-top: 12px;
@@ -198,4 +202,170 @@ header .navbar .navbar__list .navbar__item:hover {
 }
 .section3 .title .links {
   padding-top: 0.75em;
+}
+
+.section4 {
+  margin: 0 10px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 14px;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+}
+.section4 > :nth-child(1) {
+  background: url(/assets/img/grid_img/MacBook__banner_.png);
+  background-position: bottom;
+}
+.section4 > :nth-child(1)::before {
+  content: "";
+  width: 100%;
+  height: 120px;
+}
+.section4 > :nth-child(1) h2 {
+  color: var(--black1);
+  font: 500 4.2em/1.21053 Roboto;
+  letter-spacing: -0.03em;
+}
+.section4 > :nth-child(1) h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font: 500 1.7em/1.21053 Roboto;
+  letter-spacing: 0.02em;
+  color: var(--grayDark);
+}
+.section4 > :nth-child(2) {
+  background: url(/assets/img/grid_img/iPhone13__banner_.jpg);
+  background-position: center;
+}
+.section4 > :nth-child(2)::before {
+  content: "";
+  width: 100%;
+  height: 120px;
+}
+.section4 > :nth-child(2) h2 {
+  font: 500 48px/1.125 Roboto;
+  color: var(--black1);
+  letter-spacing: -1px;
+}
+.section4 > :nth-child(2) h3 {
+  font: 300 24px/1.16667 Roboto;
+  color: var(--black);
+  margin: 0.6em 0;
+  letter-spacing: 0.009em;
+}
+.section4 > :nth-child(3) {
+  background: url(/assets/img/grid_img/iPad__banner_.jpg);
+  background-position: center;
+}
+.section4 > :nth-child(3)::before {
+  content: "";
+  width: 100%;
+  height: 70px;
+}
+.section4 > :nth-child(3) h2 {
+  color: var(--white);
+  font: 500 35px/1.21053 Roboto;
+  letter-spacing: -0.04em;
+}
+.section4 > :nth-child(3) h3 {
+  font: 400 24px/1.16667 Roboto;
+  color: var(--white);
+  margin: 0.6em 0;
+  letter-spacing: -0.02em;
+}
+.section4 > :nth-child(4) {
+  justify-content: flex-end;
+  background: url(/assets/img/grid_img/Air_Pods__banner_.jpg);
+  background-position: top;
+}
+.section4 > :nth-child(4) h2 {
+  font: 500 48px/1.125 Roboto;
+  color: var(--black1);
+  letter-spacing: -1px;
+}
+.section4 > :nth-child(4) h3 {
+  font: 400 24px/1.16667 Roboto;
+  color: var(--black);
+  margin: 0.6em 0;
+  letter-spacing: 0.009em;
+}
+.section4 > :nth-child(4)::after {
+  content: "";
+  width: 100%;
+  height: 40px;
+}
+.section4 > :nth-child(5) {
+  background: url(/assets/img/grid_img/Katy_Perry__banner.jpg);
+  background-position: center;
+}
+.section4 > :nth-child(5)::before {
+  content: "";
+  width: 100%;
+  height: 75px;
+}
+.section4 > :nth-child(5) h2 {
+  font: 500 48px/1.125 Roboto;
+  color: var(--white);
+  letter-spacing: -1px;
+}
+.section4 > :nth-child(5) h2 .fa-apple {
+  transform: translateY(-3px);
+}
+.section4 > :nth-child(5) h3 {
+  font: 400 24px/1.16667 Roboto;
+  color: var(--white);
+  margin: 0.6em 0;
+  letter-spacing: 0.009em;
+  text-align: center;
+  max-width: 500px;
+}
+.section4 > :nth-child(5) .links a {
+  color: var(--green);
+}
+.section4 > :nth-child(5) .links a::after {
+  background: var(--green);
+}
+.section4 > :nth-child(5) .links a .fa-arrow-right {
+  transform: rotate(-45deg);
+}
+.section4 > :nth-child(6) {
+  background: url(/assets/img/grid_img/Us_Movie__banner_.jpg);
+  background-position: center;
+}
+.section4 > :nth-child(6)::before {
+  content: "";
+  width: 100%;
+  height: 40px;
+}
+.section4 > :nth-child(6) h2 {
+  font: 500 30px/1.125 Roboto;
+  color: var(--white);
+}
+.section4 > :nth-child(6) h3 {
+  font: 400 70px/1.125 Butterfly Kids;
+  color: var(--white);
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.section4 > :nth-child(6) .links a {
+  color: var(--white);
+}
+.section4 > :nth-child(6) .links a::after {
+  background-color: var(--white);
+}
+.section4 .content {
+  height: 60em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
