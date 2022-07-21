@@ -59,4 +59,27 @@ header .navbar .navbar__list .navbar__item {
 }
 header .navbar .navbar__list .navbar__item:hover {
   color: var(--white);
+}
+
+.informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grayLight1);
+  height: 6em;
+}
+.informations .informations__content {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+}
+.informations .informations__content p {
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--blueDark);
+  position: relative;
+}
+.informations .informations__content p i {
+  transform: rotate(-45deg);
+  padding: 0px 0.125em;
 }/*# sourceMappingURL=main.css.map */

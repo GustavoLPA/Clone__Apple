@@ -1,0 +1,25 @@
+.informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grayLight1);
+  height: 6em;
+
+  .informations__content {
+    display: flex;
+    align-items: center;
+    gap: 1.25em;
+
+    p {
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--blueDark);
+      position: relative;
+      
+      i {
+        transform: rotate(-45deg);
+        padding: 0px 0.125em;
+      }
+    }
+  }
+}
