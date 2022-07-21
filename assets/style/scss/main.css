@@ -1,0 +1,23 @@
+:root {
+  --black: #000000;
+  --black1: #252525;
+  --grayDark: #333333;
+  --grayDark1: #6e6e73;
+  --grayLight: #d6d6d6;
+  --grayLight1: #f5f5f7;
+  --white: #ffffff;
+  --blueDark: #06c;
+  --blueLight: #2997ff;
+  --red: #d03338;
+  --green: #a6ff00;
+  --grayDark_footer: #1D1D1F;
+  --grayLight_footer: #424245;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
