@@ -1,0 +1,38 @@
+header {
+  height: 4em;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 999;
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    .navbar__list {
+      height: 100%;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .navbar__item {
+        cursor: pointer;
+        list-style: none;
+
+        font-weight: 400;
+        color: var(--grayLight);
+
+        transition: 0.4s;
+
+        &:hover {
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

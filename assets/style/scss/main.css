@@ -20,4 +20,39 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+header {
+  height: 4em;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+header .navbar {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+header .navbar .navbar__list {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .navbar .navbar__list .navbar__item {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 400;
+  color: var(--grayLight);
+  transition: 0.4s;
+}
+header .navbar .navbar__list .navbar__item:hover {
+  color: var(--white);
 }/*# sourceMappingURL=main.css.map */
