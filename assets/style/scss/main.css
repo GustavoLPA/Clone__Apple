@@ -73,25 +73,25 @@ header {
   top: 0;
   z-index: 999;
 }
-header .navbar {
+header .navbar__desktop {
   display: flex;
   justify-content: center;
   height: 100%;
 }
-header .navbar .navbar__list {
+header .navbar__desktop .navbar__list {
   height: 100%;
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-header .navbar .navbar__list li {
+header .navbar__desktop .navbar__list li {
   cursor: pointer;
   font-weight: 400;
   color: var(--grayLight);
   transition: 0.4s;
 }
-header .navbar .navbar__list li:hover {
+header .navbar__desktop .navbar__list li:hover {
   color: var(--white);
 }
 
