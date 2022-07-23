@@ -20,9 +20,8 @@ header {
       align-items: center;
       justify-content: space-around;
 
-      .navbar__item {
+      li {
         cursor: pointer;
-        list-style: none;
 
         font-weight: 400;
         color: var(--grayLight);
