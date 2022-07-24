@@ -1,0 +1,54 @@
+.navbar__mobile {
+  display: none;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  height: 100%;
+
+  i {
+    cursor: pointer;
+    color: var(--grayLight1);
+    position:sticky;
+  }
+
+  .fa-apple,
+  .fa-xmark {
+    font-size: 25px;
+  }
+
+  .fa-xmark {
+    display: none;
+  }
+
+  .fa-bag-shopping,
+  .fa-bars {
+    font-size: 18px;
+  }
+
+  .mobile__list {
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    position: absolute;
+    left: 0;
+    top: 4em;
+    background-color: var(--black);
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .mobile__list {
+    li {
+      font: 300 16px/1.789 Roboto;
+      color: var(--grayLight1);
+      padding: 16px 0;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        width: 100%;
+        border-bottom: 1px solid var(--grayLight2);
+      }
+    }
+  }
+}
