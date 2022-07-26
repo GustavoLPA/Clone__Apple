@@ -21,6 +21,7 @@ IconOpen.addEventListener("click", function () {
       IconOpen.style.display = "block";
       IconClose.style.display = "none";
       header.style.background = "#000000cc";
+      document.documentElement.style.overflow = "auto";
     }
   };
 });
