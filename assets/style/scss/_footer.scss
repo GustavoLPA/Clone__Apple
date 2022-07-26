@@ -34,11 +34,21 @@ footer {
         width: 100%;
         margin-right: 0.5em;
 
+        .internal__column {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+
         .column--title {
           font: 500 13px/1.555 Roboto;
           letter-spacing: -0.01em;
           margin-bottom: 0.8em;
           color: var(--grayDark2);
+
+          i {
+            display: none;
+          }
         }
 
         .--f__link {
