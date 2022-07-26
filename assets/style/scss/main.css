@@ -194,7 +194,7 @@ header .navbar__desktop .navbar__list li:hover {
 }
 
 .section2 .background {
-  background-image: url(/assets/img/Apple_Watch__large_.jpg);
+  background-image: url(../../img/Apple_Watch__large_.jpg);
 }
 .section2 .title {
   padding-top: 5em;
@@ -232,7 +232,7 @@ header .navbar__desktop .navbar__list li:hover {
   justify-content: flex-start;
 }
 .section3 .background {
-  background: url(/assets/img/MacBook__large.jpg);
+  background: url(../../img/MacBook__large.jpg);
   background-position: center;
 }
 .section3 .title h2,
@@ -270,7 +270,7 @@ header .navbar__desktop .navbar__list li:hover {
   align-items: center;
 }
 .section4 > :nth-child(1) {
-  background: url(/assets/img/grid_img/MacBook__banner_.png);
+  background: url(../../img/grid_img/MacBook__banner_.png);
   background-position: bottom;
 }
 .section4 > :nth-child(1)::before {
@@ -293,7 +293,7 @@ header .navbar__desktop .navbar__list li:hover {
   color: var(--grayDark);
 }
 .section4 > :nth-child(2) {
-  background: url(/assets/img/grid_img/iPhone13__banner_.jpg);
+  background: url(../../img/grid_img/iPhone13__banner_.jpg);
   background-position: center;
 }
 .section4 > :nth-child(2)::before {
@@ -313,7 +313,7 @@ header .navbar__desktop .navbar__list li:hover {
   letter-spacing: 0.009em;
 }
 .section4 > :nth-child(3) {
-  background: url(/assets/img/grid_img/iPad__banner_.jpg);
+  background: url(../../img/grid_img/iPad__banner_.jpg);
   background-position: center;
 }
 .section4 > :nth-child(3)::before {
@@ -334,7 +334,7 @@ header .navbar__desktop .navbar__list li:hover {
 }
 .section4 > :nth-child(4) {
   justify-content: flex-end;
-  background: url(/assets/img/grid_img/Air_Pods__banner_.jpg);
+  background: url(../../img/grid_img/Air_Pods__banner_.jpg);
   background-position: top;
 }
 .section4 > :nth-child(4) h2 {
@@ -354,7 +354,7 @@ header .navbar__desktop .navbar__list li:hover {
   height: 40px;
 }
 .section4 > :nth-child(5) {
-  background: url(/assets/img/grid_img/Katy_Perry__banner.jpg);
+  background: url(../../img/grid_img/Katy_Perry__banner.jpg);
   background-position: center;
 }
 .section4 > :nth-child(5)::before {
@@ -388,7 +388,7 @@ header .navbar__desktop .navbar__list li:hover {
   transform: rotate(-45deg);
 }
 .section4 > :nth-child(6) {
-  background: url(/assets/img/grid_img/Us_Movie__banner_.jpg);
+  background: url(../../img/grid_img/Us_Movie__banner_.jpg);
   background-position: center;
 }
 .section4 > :nth-child(6)::before {
