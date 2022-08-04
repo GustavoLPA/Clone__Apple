@@ -1,6 +1,6 @@
 @media screen and (max-width: 833px) {
   ::-webkit-scrollbar {
-    width: 7px;
+    width: 0;
   }
 
   header {
@@ -14,30 +14,12 @@
   }
 
   footer {
-    .footer__wrapper {
-      .footer__nav {
-        flex-direction: column;
-        .footer__column {
-          .column--title {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            cursor: pointer;
-            align-items: center;
-            padding-bottom: 0.3em;
-            border-bottom: 1.2px solid var(--grayLight);
+    .footer__desktop {
+      display: none;
+    }
 
-            i {
-              display: inline-block;
-            }
-          }
-
-          .internal__column {
-            display: none;
-            transition: 1s ease;
-          }
-        }
-      }
+    .footer__mobile {
+      display: flex;
     }
   }
 }

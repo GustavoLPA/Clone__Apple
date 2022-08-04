@@ -1,0 +1,48 @@
+.footer__desktop {
+  display: flex;
+
+  nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.5em;
+  }
+
+  .footer__column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    h2 {
+      color: var(--grayDark2);
+      padding: 0.8em 0;
+    }
+
+    i {
+      display: none;
+    }
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    .box__links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 0.7em;
+
+      .--f__link {
+        font: 400 12px/1.3337 Roboto;
+        letter-spacing: -0.01em;
+        color: var(--grayLight2);
+        width: fit-content;
+        cursor: pointer;
+      }
+    }
+  }
+}

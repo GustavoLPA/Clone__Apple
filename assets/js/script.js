@@ -1,8 +1,17 @@
+// Default 
+const links = document.getElementsByTagName("a");
+
+for (let i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function (event) {
+    event.preventDefault();
+  });
+}
+
 // Navbar mobile e desktop
-var IconOpen = document.querySelector(".IconOpen");
-var IconClose = document.querySelector(".IconClose");
-var IconBag = document.querySelector(".IconBag");
-var header = document.getElementById("header");
+const IconOpen = document.querySelector(".IconOpen");
+const IconClose = document.querySelector(".IconClose");
+const IconBag = document.querySelector(".IconBag");
+const header = document.getElementById("header");
 
 IconOpen.addEventListener("click", function () {
   let menu = document.querySelector(".mobile__list");
@@ -39,3 +48,12 @@ IconClose.addEventListener("click", function () {
 });
 
 // Menu de navegação footer
+const columns = document.querySelectorAll(".column");
+const box = document.querySelectorAll(".box__links");
+
+for (let i = 0; i < columns.length; i++) {
+  columns[i].addEventListener("click", function (event) {
+    event.currentTarget.classList.toggle("openClose");
+    box[i].classList.toggle("box_in");
+  });
+}
