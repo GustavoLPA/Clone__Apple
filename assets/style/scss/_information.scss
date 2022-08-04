@@ -15,7 +15,11 @@
       font-size: 14px;
       color: var(--blueDark);
       position: relative;
-      
+
+      &:hover {
+        text-decoration: underline;
+      }
+
       i {
         transform: rotate(-45deg);
         padding: 0px 0.125em;

@@ -22,6 +22,57 @@
       display: flex;
     }
   }
+
+  .section {
+    height: 57.5em;
+  }
+
+  .links a {
+    font-size: 21px;
+  }
+
+  .informations {
+    padding-top: 1.5em;
+
+    .informations__content {
+      flex-direction: column;
+
+      p {
+        font-size: 13.7px;
+      }
+    }
+  }
+
+  .section1 {
+    .background {
+      background-image: url(../../img/responsive_img/iPhone13Pro_rps.jpg);
+    }
+  }
+
+  .section2 {
+    .background {
+      background-image: url(../../img/responsive_img/watch_rps.jpg);
+      background-size: calc(100% + 25%);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .section3 {
+    .title {
+      padding-top: 10%;
+      font-size: 90%;
+    }
+    .background {
+      background-image: url(../../img/responsive_img/MacBook_rps.jpg);
+      background-size: calc(100%) + 70%;
+    }
+  }
+
+  .section4 {
+    &:nth-child(3) {
+      background-image: url(../../img/responsive_img/ipad_rps.jpg);
+    }
+  }
 }
 
 @media screen and (max-width: 734px) {
