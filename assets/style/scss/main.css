@@ -165,9 +165,9 @@ header .navbar__desktop .navbar__list li:hover {
 }
 
 .navbar__mobile .mobile__list li {
-  font: 300 16px/0.89 Roboto;
+  font: 300 16px/0.8 Roboto;
   color: var(--grayLight1);
-  padding: 20px 0;
+  padding: 11px 0;
   cursor: pointer;
 }
 
@@ -718,7 +718,7 @@ footer .footer__wrapper a:hover {
   }
 
   .informations {
-    padding-top: 1.5em;
+    padding-top: 0.3em;
   }
 
   .informations .informations__content {
