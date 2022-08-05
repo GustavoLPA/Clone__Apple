@@ -152,6 +152,9 @@ header .navbar__desktop .navbar__list li:hover {
 }
 
 .navbar__mobile .mobile__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 0;
   overflow: scroll;
   transition: 0.5s;
@@ -167,7 +170,7 @@ header .navbar__desktop .navbar__list li:hover {
 .navbar__mobile .mobile__list li {
   font: 300 16px/0.8 Roboto;
   color: var(--grayLight1);
-  padding: 11px 0;
+  padding: 15px 0;
   cursor: pointer;
 }
 
