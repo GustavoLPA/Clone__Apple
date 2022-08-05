@@ -23,10 +23,6 @@
     }
   }
 
-  .section {
-    height: 57.5em;
-  }
-
   .links a {
     font-size: 21px;
   }
@@ -81,8 +77,164 @@
   }
 
   .section4 {
-    margin: 0 5px;
+    margin: 0 3px;
     grid-template-columns: 12fr;
     grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section {
+    height: 43.25em;
+    .title {
+      h2,
+      h3 {
+        font-size: 27px;
+      }
+    }
+  }
+
+  .informations {
+    .informations__content {
+      p {
+        font-size: 11px;
+        text-align: center;
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        i {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .section1 {
+    .background {
+      background-position: bottom;
+      background-size: 200%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .section2 {
+    height: 44.25em;
+    .background {
+      background-position: bottom;
+      background-size: 190%;
+    }
+    .title {
+      h3 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .section3 {
+    .background {
+      background-size: 200%;
+    }
+    .title {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .section4 {
+    margin: 0;
+    row-gap: 2px;
+
+    .content {
+      height: 43em;
+    }
+    .section4__banner {
+      &::before {
+        height: 25px;
+      }
+
+      &:nth-child(1) {
+        height: 48em;
+        background-size: 230%;
+        background-position: bottom;
+      }
+
+      &:nth-child(2) {
+        height: 48em;
+        background-size: 185%;
+        background-position: bottom;
+      }
+
+      &:nth-child(3) {
+        height: 48em;
+        background-color: var(--black);
+        background-size: 150%;
+      }
+
+      &:nth-child(4) {
+        height: 51em;
+        text-align: center;
+        background-size: 155%;
+
+        h2 {
+          font-size: 50px;
+        }
+
+        h3 {
+          font-size: 19px;
+        }
+      }
+
+      &:nth-child(5) {
+        height: 43em;
+
+        h2 {
+          font-size: 45px;
+        }
+
+        .metallica_logo {
+          height: 130px;
+        }
+      }
+
+      &:nth-child(6) {
+        height: 50em;
+        background-color: var(--black);
+        background-size: 200%;
+        background-position: bottom;
+      }
+    }
+  }
+
+  .links a {
+    font-size: 15px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  footer {
+    .footer__wrapper {
+      .wrapper__text {
+        p {
+          font-size: 9.5px;
+          text-align: justify;
+        }
+      }
+
+      .low__footer p,
+      a {
+        font-size: 9.7px;
+
+        span {
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
